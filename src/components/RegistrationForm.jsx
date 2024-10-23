@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaEye, FaEyeSlash } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 export default function Component() {
   const [showPassword, setShowPassword] = React.useState(false)
@@ -194,9 +195,9 @@ export default function Component() {
         </form>
         <p className="mt-4 text-center text-sm text-gray-600">
           Already have an account?{" "}
-          <a href="#" className="font-medium text-orange-600 hover:text-orange-500">
+          <Link to='/login' href="#" className="font-medium text-orange-600 hover:text-orange-500">
             Login
-          </a>
+          </Link>
         </p>
       </div>
     </div>
