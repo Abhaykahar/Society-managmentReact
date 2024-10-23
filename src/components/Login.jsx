@@ -6,7 +6,7 @@ function Login() {
   const [showPassword, setShowPassword] = useState(false)
 
   return (
-    <div className="flex min-h-screen ">
+    <div className="flex min-h-screen">
       {/* Left side with illustration and text */}
       <div className="hidden lg:flex lg:w-1/2 bg-white p-12 flex-col justify-between bg-[#F6F8FB]">
         <div className="mb-8">
@@ -26,7 +26,7 @@ function Login() {
       <div className="w-full lg:w-1/2 flex items-center justify-center p-8">
         <div className="w-full max-w-md shadow-lg p-3 rounded-md">
           <h1 className="text-2xl font-bold text-gray-900 mb-6">Login</h1>
-          <form className="space-y-4 ">
+          <form className="space-y-5">
             <div>
               <label htmlFor="email" className="block text-sm font-medium text-gray-700">
                 Email or Phone*
