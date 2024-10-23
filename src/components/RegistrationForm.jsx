@@ -15,13 +15,9 @@ export default function Component() {
             <span className="text-orange-500">Dash</span>Stack
           </h1>
         </div>
-        <div className="space-y-6">
-          <img src="/placeholder.svg?height=400&width=400" alt="Illustration" className="w-full" />
-          <h2 className="text-2xl font-semibold text-center">
-            Connect, Collaborate, and Control - <span className="text-orange-500">Society</span>
-            <br />
-            Management Simplified
-          </h2>
+        <div className="space-y-6 flex justify-center items-center">
+          <img src="/images/group.png" alt="Illustration" className="" />
+     
         </div>
         <div></div>
       </div>
@@ -128,6 +124,11 @@ export default function Component() {
               required
             >
               <option value="">Select Society</option>
+              <option value="">Shantigram Society</option>
+              <option value="">Russet House</option>
+              <option value="">Surya recidency</option>
+              <option value="">utsav society</option>
+              <option value="">murlidhar</option>
               {/* Add more options here */}
             </select>
           </div>
